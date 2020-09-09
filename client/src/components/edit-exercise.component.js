@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
 import axios from "axios";
-import{BACKEND_URL} from '../config'
+import{ BACKEND_URL } from '../config'
 export default class EditExercise extends Component {
   constructor(props){
   super(props)
